@@ -1,0 +1,36 @@
+Source: ext-php
+Section: admin
+Priority: optional
+Maintainer: z17 Dev <mail@z17.dev>
+Uploaders: z17 Dev <mail@z17.dev>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.6.1
+Homepage: https://pkgstore.gitlab.io
+Vcs-Browser: https://github.com/pkgstore/linux-deb-ext-php
+Vcs-Git: https://github.com/pkgstore/linux-deb-ext-php.git
+Rules-Requires-Root: no
+
+# -------------------------------------------------------------------------------------------------------------------- #
+# Package: ext-php
+# -------------------------------------------------------------------------------------------------------------------- #
+
+Package: ext-php
+Architecture: all
+Depends: php8.1
+        ,php8.1-gd
+        ,php8.1-gmp
+        ,php8.1-imagick
+        ,php8.1-imap
+        ,php8.1-intl
+        ,php8.1-mbstring
+        ,php8.1-memcached
+        ,php8.1-odbc
+        ,php8.1-opcache
+        ,php8.1-redis
+        ,php8.1-uploadprogress
+        ,php8.1-xml
+        ,php8.1-zip
+        ,php8.1-zstd
+        ,${misc:Depends}
+Description: META-package for install and configure PHP
+ META-package for install and configure PHP.

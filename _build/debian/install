@@ -1,0 +1,2 @@
+*.ini etc/php/7.3/apache2/conf.d
+*.ini etc/php/7.3/cli/conf.d
